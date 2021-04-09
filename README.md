@@ -1,5 +1,8 @@
 # exercitii-in-Python
+
 ###inceput in python###
+
+
 print ("Hello World")
 print ("Salut!")
 print (2)
@@ -63,7 +66,9 @@ print(type(adevarat))
 suma = a + f
 print (suma)
 
-#comparare
+###comparare###
+
+
 if a > f:
   print ("#1 - variabila a este mai mare decat f")
 elif a < f:
@@ -75,7 +80,8 @@ elif a == f:
 else:
   print ("Nu este adevarat")
 
-#comparare
+###comparare###
+
 
 b = 102
 c = -86
@@ -91,7 +97,8 @@ elif b == c:
 else:
   print ("Nu este adevarat")
 
-#functia noastra
+###functia noastra###
+
 
 def comparare(nrA,nrB):
  print("###RULEZ FUNCTIA###")
@@ -177,6 +184,8 @@ print(b[5:9])
 
 
 ###tipul###
+
+
 notA = -1
 test = 7.23
 curs= "Introducere in Python"
@@ -186,6 +195,7 @@ print(type(curs))
 
 
 ###introducere date de la tastatura###
+
 
 nume=input("Cum te numesti ? ")
 print("Te numesti " + nume )
@@ -203,7 +213,11 @@ print("%d vs %d "% (a , b))
 
 
 ###am printat cele doua valori, dar le-am convertit###
+
+
 ###  %d inseamna intiger si %s inseamna text###
+
+
 if a > b:
   print("da,a este mai mare ca b")
 else:
@@ -214,6 +228,8 @@ print("nu este adevarat")
 
 
 ###un alt exemplu###
+
+
 a =15
 b=15
 
@@ -221,6 +237,8 @@ if a > b:
   print("hey")
 
   ###asa functioneaza conditia while###
+  
+  
   n = 10
 i = 0
 while i < n:
@@ -228,6 +246,8 @@ while i < n:
   i+=1
 
   ###while si if###
+  
+  
   n = 10
 i = 0
 while i < n:
@@ -244,6 +264,8 @@ else:
   print("wow")
 
 ###nr par si nr impar###
+
+
 a = int(input("numar introdus ?"))
 
 if a%2==0:
@@ -256,6 +278,8 @@ else:
 
 
 ###chestionar de intrebari###
+
+
 nume = input("Cum te numesti ? ")
 job = input("Ce job iti doresti ? ")
 j = job
@@ -277,6 +301,8 @@ print("cand : " , c)
 
 
 ###este sau nu palidrom ? cuvinte care se citesc la fel de la stanga la dreapta###
+
+
 a=input("Introdu un cuvant : ")
 def my_function(a):
   return a[::-1]
@@ -306,6 +332,8 @@ while i<100:
 print("Suma numerelor de la A la Z este %d " %(sum))
 
 ###rezolvare exercitiu###
+
+
 a = int(input(" Primul numar este : "))
 b = int(input("Al doilea numar este : " ))
 sum= 0
@@ -317,6 +345,8 @@ while i in range( a , b):
   print("Suma numerelor de la A la Z este : %d"  % (sum))
 
 ###exercitiul 3  numere pare divizibile cu 7###
+
+
 i=0
 while i < 3463:
   print(i)
@@ -327,6 +357,8 @@ while i < 3463:
 
 
 ###exercitiul 2 (a)###
+
+
 list=["Mihai" , "Mihai" , "Lucian" , "Cristina" , "Tiberiu" , "Tiberiu" , "Lucian" , "Sorin" , "Ramona" , "Sorin"]
 
 list.sort()
@@ -337,6 +369,8 @@ print(x)
 
 
 ###exercitiul 2 (b)###
+
+
 count=list.count("Mihai")
 print("The count of name " "Mihai is : " , count)
 count=list.count("Cristina")
@@ -358,21 +392,29 @@ count=list.count("Tiberiu")
 print("The count of name Tiberiu is : " ,  count)
 
 ###exercitiul 2 (c)###
+
+
 for string in list:
   if list.count(string) > 1:
     print("the repetitve str is : " + string)
 
 ###exercitiul 2 (d)###
+
+
 for string in list:
   if list.count(string)<2:
     print("the single elements are: " + string)
 
 
 ###exercitiul 2 (e)###
+
+
 list.reverse()
 print(list)
 
 ###exercitiul 2 (b)###
+
+
 m=(("Cristina " "Lucian") , ("Lucian "  "Mihai") , "Mihai")
 
 x=list(m)
@@ -411,6 +453,8 @@ newlist.sort(reverse = True)
 print("lista descrescatoare :%s" %(newlist))
 
 ###exercitiu1 doar numere pare###
+
+
 a=[1,4,9,16,25,36,49,64,81,100]
 
 new=[x for x in a if x%2==0]
@@ -435,6 +479,8 @@ print(m)
 ###definire functie###
 
 ###exercitiul 1###
+
+
 def my_function(x):
   print(len(x))
   return
@@ -461,6 +507,8 @@ print
 
 
 ###exercitiu explicat in video###
+
+
 valoare= input("Introdu un numar : ")
 
 
@@ -496,6 +544,8 @@ else:
 
 
  ###exercitiu ###
+ 
+ 
 t = int(input("introdu primul nr:"))
 u = int(input("introdu al doilea nr:"))
 w = u + 1
@@ -516,7 +566,7 @@ while (n >= 0):
   n -= 1
   print(" Suma numerelor de la t la u este :" , sum)
 
-  # exercitiul 4 ,punctul 1
+  ###exercitiul 4 ,punctul 1###
 
 sumFor = 0
 
@@ -531,7 +581,9 @@ while sumFor:
   print(sumFor)
   break
 
-# exercitiul 4 , punctul 2
+### exercitiul 4 , punctul 2###
+
+
 def myfunc(sumFor = sumFor + x):
   print(sumFor)
 
@@ -544,6 +596,8 @@ sum1 = x + y
 myfunc(sum1)
 
 ###creaza baza de date si aseaza in ordine alfabetica###
+
+
 client1= {
 
  "Nume1":"Amalia" ,
@@ -676,6 +730,8 @@ print(a)
 print(a[0])
 
 ###python obiecte###
+
+
 class FamiliaMea():
   nr_persoane=0
 
@@ -748,6 +804,8 @@ with open('rezultat.txt', 'w') as f4:
 f4.close()
 
 ###model facut de ramon la scrierea si citirea datelor dintr-un fisier###
+
+
 f = open("/Users/ofeliamariaatanasiu/Desktop/numere/fisier1.txt" , "r+")
 text = " "
 l = [" "]
